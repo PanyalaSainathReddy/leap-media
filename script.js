@@ -7,11 +7,11 @@ window.addEventListener('load', () => {
   }
 });
 
-// setTimeout(function() {
-//   if (preloader) {
-//     preloader.remove()
-//   }
-// }, 6000);
+setTimeout(function() {
+  if (preloader) {
+    preloader.remove()
+  }
+}, 12000);
 
 var servicesSection = document.querySelector('.services-sec');
 var contactSection = document.querySelector('.contact-sec');
